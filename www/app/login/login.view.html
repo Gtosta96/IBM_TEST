@@ -1,0 +1,32 @@
+<ion-view class="login-background">
+    <ion-content padding="true" class="top-100">
+
+        <h1 class="login-title">
+          <strong>TRAVEL</strong> GUIDE
+        </h1>
+        <form class="login-block" ng-submit="vm.doLogin()" >
+            <div class="list">
+                <label class="item item-input item-floating-label login-label">
+                    <span class="input-label login-span">Username</span>
+                    <input type="text" placeholder="Username" ng-model="vm.credentials.username">
+                </label>
+                <label class="item item-input item-floating-label login-label">
+                    <span class="input-label login-span">Password</span>
+                    <input type="password" placeholder="Password" ng-model="vm.credentials.password">
+                </label>
+            </div>
+            <button type="submit" class="button button-outline button-white full-width">
+                Login
+            </button>
+        </form>
+        <div class="text-center">
+            <label class="login-touch-id">Or Use Touch ID</label>
+        </div>
+
+        <footer class="login-footer">
+            <figure>
+                <img srcset="img/assets/logo_ak@2x.png" alt="IBM Mobile">
+            </figure>
+        </footer>
+    </ion-content>
+</ion-view>

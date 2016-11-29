@@ -1,0 +1,239 @@
+/*commons*/
+.full-width {
+    width: 100%;
+}
+
+.top-100 {
+    top: 100px;
+}
+
+.top-0 {
+    top: 0 !important;
+}
+
+.margin-lr-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.button.button-white.button-outline {
+    border-color: #fff;
+    background: transparent;
+    color: #fff;
+}
+
+/*ionic defaults*/
+/* trick to remove header background */
+[nav-bar-transition="android"] [nav-bar="cached"],
+[nav-bar-transition="android"] [nav-bar="stage"],
+[nav-bar-transition="android"] [nav-bar="leaving"] {
+    display: none;
+}
+
+button.back-button.buttons.button-clear.header-item,
+.button.button-icon.button-clear.ion-navicon {
+    color: #fff !important;
+}
+/*ionic defaults - end*/
+
+/*slider*/
+.slider {
+    height: 100%;
+}
+.slider-slide {
+    padding-top: 80px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.slider-pager-page {
+    color: #fff !important;
+}
+/*slider - end*/
+
+/*commons - end*/
+
+/*login*/
+.login-background {
+    background: url(../img/assets/bg_login.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-title {
+    text-transform: uppercase;
+    font-family:OpenSans-Semibold;
+    font-size:22px;
+    color:#fff;
+    letter-spacing:3px;
+    line-height:31px;
+    text-align:center;
+}
+
+.login-block {
+    margin: 30px;
+}
+
+.login-label {
+    border-width: 0 0 1px 0;
+    border-color: #fff;
+}
+
+.login-span,
+.login-span+input {
+    color: #fff;
+}
+
+.login-span+input::-webkit-input-placeholder { color: #fff; }
+.login-span+input:-moz-placeholder { color: #fff; }
+.login-span+input::-moz-placeholder { color: #fff; }
+.login-span+input:-ms-input-placeholder { color: #fff; }
+
+.login-touch-id {
+    font-family:OpenSans-Semibold;
+    font-size:15px;
+    color:#ffffff;
+    line-height:18px;
+    text-align:center;
+}
+
+.login-footer {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.login-footer img {
+    width: 150px;
+}
+/*login - end*/
+
+/*destination*/
+.destination-beach-background {
+    background: url(../img/assets/bg_beaches.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.destination-romantic-background {
+    background: url(../img/assets/bg_romantic.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.destination-paradise-background {
+    background: url(../img/assets/bg_paradise.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.subject {
+    position: absolute;
+    bottom: 20px;
+    font-family: OpenSans;
+    font-size:28px;
+    color:#fff;
+    text-align:center;
+    max-width: 100%;
+}
+
+.view-cities {
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: OpenSans;
+    font-size: 12px;
+}
+/*destination - end*/
+
+/*cities*/
+.city-fernando-noronha-background-1 {
+    background: url(../img/assets/bg_fernandodenoronha1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city-fernando-noronha-background-2 {
+    background: url(../img/assets/bg_fernandodenoronha2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city-paris-background-1 {
+    background: url(../img/assets/bg_paris1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city-paris-background-2 {
+    background: url(../img/assets/bg_paris2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city-cancun-background-1 {
+    background: url(../img/assets/bg_cancun1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city-cancun-background-2 {
+    background: url(../img/assets/bg_cancun2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city-country {
+    display: block;
+    font-family:OpenSans-Bold;
+    font-size:11px;
+    color:#b9b9b9;
+    line-height:20px;
+    text-align:left;
+    text-transform: uppercase;
+}
+
+.city-city {
+    font-family:OpenSans;
+    font-size:25px;
+    color:#fff;
+    text-align:left;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.city-detail {
+    display: block;
+    font-family:OpenSans;
+    font-size:15px;
+    color:#e6e9ed;
+    text-align:left;
+    line-height:20px;
+}
+/*cities - end*/

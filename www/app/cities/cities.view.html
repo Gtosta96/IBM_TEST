@@ -1,0 +1,19 @@
+<ion-view hide-nav-bar="false" cache-view="false">
+    <ion-content class="top-0">
+
+        <ion-slide-box>
+            <ion-slide ng-repeat="detail in vm.cityData.details" ng-class="vm.getBackground($index)">
+                <div class="subject margin-lr-40">
+                    <span class="city-country">
+                        <strong>{{ ::vm.cityData.country }}</strong>
+                    </span>
+                    <p class="city-city">{{ ::vm.cityData.city }}</p>
+                    <span class="city-detail">{{ ::detail }}</span>
+                    
+                    <a class="button button-outline button-white view-cities">View Hotels</a>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+
+    </ion-content>
+</ion-view>
